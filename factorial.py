@@ -1,11 +1,15 @@
-"'Finding the Factorial by defing function method'"
+'''
+    Finding the Factorial by defing function method
+'''
 def get_factorial (n):
     fact = 1
     for i in range(1, n+1):
         fact = fact * i
     return fact
 
-"'Finding factorial by recursion function metohd'"
+'''
+    Finding factorial by recursion function metohd
+'''
 def get_factorial_recursion (n):
     if n== 1 :
         return 1

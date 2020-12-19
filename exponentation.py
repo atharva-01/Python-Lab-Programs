@@ -1,4 +1,6 @@
-"'Program to find the exponent of the given number to the power given by user'"
+'''
+    Program to find the exponent of the given number to the power given by user
+'''
 
 def get_exp(base ,power):
     value = base ** power

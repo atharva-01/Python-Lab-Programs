@@ -1,4 +1,6 @@
-"'Program to find the square root of the number by the newton's method'"
+'''
+    Program to find the square root of the number by the newton's method
+'''
 
 def get_sqt(num , precision):
     sqt = num

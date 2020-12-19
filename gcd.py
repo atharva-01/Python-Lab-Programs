@@ -1,4 +1,8 @@
-"'Program to find the gcd(greatest commom divisor) of two numbers'"
+'''
+
+    Program to find the gcd(greatest commom divisor) of two numbers
+
+'''
 
 def find_gcd(a, b):
      while b:
@@ -10,7 +14,11 @@ num2 = int(input("Enter the second number:"))
 
 print("The gcd of numbers",num1,"and",num2,"is",find_gcd(num1,num2))
 
-"'To find gcd of more than two numbers enter the numbers ,give space and hit enter to exit the whjile loop'"
+'''
+
+    To find gcd of more than two numbers enter the numbers ,give space and hit enter to exit the while loop
+
+'''
 
 
 numbers = []
