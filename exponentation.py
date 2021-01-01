@@ -3,10 +3,12 @@
 '''
 
 def get_exp(base ,power):
-    value = base ** power
-    return value
+     pow = 1
+     for i in range(power):
+         pow = pow * base
+     return pow
 
 base = float(input('Enter the base :'))
-power = float(input('Enter the power :'))
+power = int(input('Enter the power :'))
 
 print('The value of number whose base is',base,'and power is',power,'is:',get_exp(base,power))
